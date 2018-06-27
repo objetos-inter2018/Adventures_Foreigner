@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=MyWorld()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\r\n\ \r\n
+comment2.params=
+comment2.target=Counter\ getCounter()
+comment3.params=
+comment3.target=BarraDeVida\ getVida()
+comment4.params=
+comment4.target=void\ escuela()
+comment4.text=\r\n\ Funcion\ que\ inicializa\ la\ posicion\ de\ los\ personajes\ y\ los\ objetos\ \r\n\ en\ el\ primer\ escenario.\r\n
+comment5.params=
+comment5.target=void\ calle()
+comment6.params=
+comment6.target=void\ checaNivel()
+numComments=7
