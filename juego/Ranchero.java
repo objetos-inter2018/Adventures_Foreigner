@@ -14,6 +14,38 @@ public class Ranchero extends Enemigo
      */
     public void act() 
     {
+        mueve();
+        disparaBala();
+        muerto();
         // Add your action code here.
     }    
+    
+    public void disparaBala()
+    {
+        BalaRanchero bala = new BalaRanchero();
+        int num = Greenfoot.getRandomNumber(100);
+        if(num==0)
+        {
+            World world = getWorld();
+            world.addObject(bala, 0, 0);
+            bala.setLocation(getX(),getY());
+            bala.setRotation(getRotation());
+            /*if(isAtEdge())
+                bala();*/
+        }
+    }
+    
+    public void muerto()
+    {
+        Actor BalaJugador;
+        BalaJugador = getOneObjectAtOffset(0,0,BalaJugador.class);
+        if(/*isTouching(BalaJugador.class)*/ BalaJugador != null)
+        {
+            World world;
+            world = getWorld();
+            world.removeObject(BalaJugador);
+            world.removeObject(this);
+            //MyWorld mundo = (MyWorld)world;
+        }
+    }
 }

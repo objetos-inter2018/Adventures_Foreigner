@@ -18,11 +18,13 @@ public class Jugador extends Personaje
     public void act() 
     {
         
-        movimientos();
+        movimientosEscuela();
         //mover();
         puntaje();
         recuperaVida();
         pierdeVida();
+        
+        disparaBala();
         
     }    
     
@@ -61,16 +63,39 @@ public class Jugador extends Personaje
     /**
      * 
      */
-    public void movimientos()
+    public void movimientosEscuela()
     {
         if(!isTouching(Pupitre.class)) 
-            mover();
+            mover();   
         else
-        {
             move(-1);
-        }
+        
+            
     }
     
+    /**
+     * 
+     */
+    public void movimientosCalle()
+    {
+        if(!isTouching(Alcantarilla.class))
+            mover();
+        else
+            move(-1); 
+    }
+    
+    
+    /**
+     * 
+     */
+    public void movimientosrancho()
+    {
+        if(!isTouching(Cactus.class))
+            mover();
+        else
+            move(-1);
+    }
+   
     /**
      * Método que verifica cuando el jugador obtiene puntos.
      * @Return puntos. Los puntos obtenidos en total.
@@ -101,6 +126,17 @@ public class Jugador extends Personaje
             puntos.masPuntos();
         }
         
+        Actor Maruchan;
+        Maruchan=getOneObjectAtOffset(0,0,Maruchan.class);
+        if(Maruchan != null)
+        {
+            World world;
+            world = getWorld();
+            world.removeObject(Maruchan);
+            MyWorld mundo = (MyWorld)world;
+            Counter puntos = mundo.getCounter();
+            puntos.masPuntos();
+        }
         
         
     }
@@ -159,6 +195,64 @@ public class Jugador extends Personaje
             
         }
         
+        Actor Vago;
+        Vago = getOneObjectAtOffset(0,0,Vago.class);
+        if( Vago != null)
+        {
+            setLocation(getX()-60, getY()-60);
+            World world;
+            world = getWorld();
+
+            MyWorld mundo = (MyWorld)world;
+            BarraDeVida vida = mundo.getVida();
+            vida.disminuyeVida();
+            
+        }
         
+        Actor Pandillero;
+        Pandillero = getOneObjectAtOffset(0,0,Pandillero.class);
+        if( Pandillero != null)
+        {
+            setLocation(getX()-60, getY()-60);
+            World world;
+            world = getWorld();
+
+            MyWorld mundo = (MyWorld)world;
+            BarraDeVida vida = mundo.getVida();
+            vida.disminuyeVida();
+            
+        }
+        
+        Actor BalaRanchero;
+        BalaRanchero = getOneObjectAtOffset(0,0,BalaRanchero.class);
+        if( BalaRanchero != null/*isTouching(BalaRanchero.class)*/)
+        {
+            setLocation(getX()-60, getY()-60);
+            World world;
+            world = getWorld();
+
+            MyWorld mundo = (MyWorld)world;
+            BarraDeVida vida = mundo.getVida();
+            vida.disminuyeVida();
+        }
+    }
+    
+    /**
+     * Método que hace que el jugador dispare la bala al presionar la tecla de espacio.
+     */
+    public void disparaBala()
+    {
+        BalaJugador bala = new BalaJugador();
+        if(Greenfoot.isKeyDown("space"))
+        {
+            World world = getWorld();
+            world.addObject(bala, 0, 0);
+            bala.setLocation(getX(),getY());
+            bala.setRotation(getRotation());
+            
+            
+            /*if(isAtEdge())
+                bala();*/
+        }
     }
 }

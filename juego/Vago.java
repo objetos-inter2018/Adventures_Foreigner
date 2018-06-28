@@ -15,5 +15,23 @@ public class Vago extends Enemigo
     public void act() 
     {
         mueve();
+        disparaTequila();
     }    
+    
+    /**
+     *
+     */
+    public void disparaTequila()
+    {
+        Tequila tequila = new Tequila();
+        int num = Greenfoot.getRandomNumber(100);
+        if(num==0)
+        {
+            World world = getWorld();
+            world.addObject(tequila, 0, 0);
+            tequila.setLocation(getX(),getY());
+            tequila.setRotation(getRotation());
+            
+        }
+    }
 }

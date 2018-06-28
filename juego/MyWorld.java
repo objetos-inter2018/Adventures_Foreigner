@@ -58,6 +58,8 @@ public class MyWorld extends World
         BuenaCalificacion bueno2 = new BuenaCalificacion();
         Refresco refresco = new Refresco();
         
+        
+        
         addObject( jug, 40,330);    //Foraneo
         addObject( prof, 555, Greenfoot.getRandomNumber(400) ); //Profesor
         addObject( bravucon, 230, Greenfoot.getRandomNumber(400) ); //Bravucon
@@ -67,6 +69,8 @@ public class MyWorld extends World
         addObject( bueno2, 500,357);    //BuenaCalificacion
         addObject( pupitre, 380, Greenfoot.getRandomNumber(400));    //Pupitre
         addObject( refresco, 450, Greenfoot.getRandomNumber(400));   //Refresco
+        
+        
     }
     
     public void calle()
@@ -80,11 +84,58 @@ public class MyWorld extends World
         Refresco refresco = new Refresco();
         Refresco refresco2 = new Refresco();
         Alcantarilla alcan = new Alcantarilla();
+        Vago vago = new Vago();
+        Pandillero pandi = new Pandillero();
+        Pandillero pandi1 = new Pandillero();
+        Maruchan maru1 = new Maruchan();
+        Maruchan maru2 = new Maruchan();
+        Maruchan maru3 = new Maruchan();
+        Maruchan maru4 = new Maruchan();
+        Maruchan maru5 = new Maruchan();
+
         
         addObject( jug, 40,330);    //Foraneo
         addObject( refresco, 475, Greenfoot.getRandomNumber(400));   //Refresco
         addObject( refresco2, 104, Greenfoot.getRandomNumber(400));   //Refresco
         addObject( alcan, 200,370);
+        addObject(vago, 555,Greenfoot.getRandomNumber(400));
+        addObject(pandi, 140,Greenfoot.getRandomNumber(400));
+        addObject(pandi1,357,Greenfoot.getRandomNumber(400));
+        
+        addObject(maru1,Greenfoot.getRandomNumber(550),Greenfoot.getRandomNumber(400));
+        addObject(maru2,Greenfoot.getRandomNumber(550),Greenfoot.getRandomNumber(400));
+        addObject(maru3,Greenfoot.getRandomNumber(550),Greenfoot.getRandomNumber(400));
+        addObject(maru4,Greenfoot.getRandomNumber(550),Greenfoot.getRandomNumber(400));
+        addObject(maru5,Greenfoot.getRandomNumber(550),Greenfoot.getRandomNumber(400));
+        
+        
+    }
+    
+    public void rancho()
+    {
+        setBackground("atardecer.jpg");
+        
+        addObject(counter, 55, 18);  //Contador
+        addObject(barra, 40, 50);   //Barra de vida
+        
+        Jugador jug = new Jugador();
+        
+        Ranchero ran1 = new Ranchero();
+        Ranchero ran2 = new Ranchero();
+        Ranchero ran3 = new Ranchero();
+        Ranchero ran4 = new Ranchero();
+        
+        Cactus cac = new Cactus();
+        Cactus cac1 = new Cactus();
+
+        addObject( jug, 40,330);
+        addObject( ran1, 550,Greenfoot.getRandomNumber(400));
+        addObject( ran2, 475,Greenfoot.getRandomNumber(400));
+        addObject( ran3, 550,Greenfoot.getRandomNumber(400));
+        addObject( ran4, 475,Greenfoot.getRandomNumber(400));
+        addObject(cac, 140,370);
+        addObject(cac1, 339,200);
+        
     }
     
     public void checaNivel()
@@ -96,7 +147,6 @@ public class MyWorld extends World
             calle();
             Greenfoot.stop();
         }
-        
     }
     
 }
