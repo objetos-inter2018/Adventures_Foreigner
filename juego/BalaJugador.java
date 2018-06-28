@@ -16,5 +16,11 @@ public class BalaJugador extends Jugador
     {
         // Add your action code here.
         move(5);
+        if(isAtEdge())
+        {
+            World world;
+            world = getWorld();
+            world.removeObject(this);
+        }
     }    
 }

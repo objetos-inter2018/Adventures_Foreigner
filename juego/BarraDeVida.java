@@ -37,6 +37,10 @@ public class BarraDeVida extends Jugador
         myImage.fillRect(1, 1, vidas * vidaPerdida, barraAlto);
     }
     
+    /**
+     * Metodo que disminuye en una unidad las vidas del personaje. Si llega a cero
+     * entonces el juego se detiene.
+     */
     public void disminuyeVida()
     {
         vidas--;
@@ -44,6 +48,9 @@ public class BarraDeVida extends Jugador
             Greenfoot.stop();
     }
     
+    /**
+     * Metodo que aumenta en una unidad las vidas del jugador
+     */
     public void aumentaVida()
     {
         vidas++;

@@ -11,6 +11,8 @@ public class Jugador extends Personaje
     boolean herido;
     public int puntos=0;
     public int vidas = 4;
+    int nivel = 1;
+    
     /**
      * Act - do whatever the Jugador wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -18,13 +20,15 @@ public class Jugador extends Personaje
     public void act() 
     {
         
-        movimientosEscuela();
+        //movimientosEscuela();
+        //movimientosCalle();
         //mover();
         puntaje();
         recuperaVida();
         pierdeVida();
         
-        disparaBala();
+        
+        checaPortal();
         
     }    
     
@@ -65,7 +69,7 @@ public class Jugador extends Personaje
      */
     public void movimientosEscuela()
     {
-        if(!isTouching(Pupitre.class)) 
+        if(!isTouching(Pupitre.class) /*|| !isTouching(Alcantarilla.class)*/) 
             mover();   
         else
             move(-1);
@@ -88,7 +92,7 @@ public class Jugador extends Personaje
     /**
      * 
      */
-    public void movimientosrancho()
+    public void movimientosRancho()
     {
         if(!isTouching(Cactus.class))
             mover();
@@ -225,7 +229,7 @@ public class Jugador extends Personaje
         
         Actor BalaRanchero;
         BalaRanchero = getOneObjectAtOffset(0,0,BalaRanchero.class);
-        if( BalaRanchero != null/*isTouching(BalaRanchero.class)*/)
+        if( /*BalaRanchero != null*/isTouching(BalaRanchero.class))
         {
             setLocation(getX()-60, getY()-60);
             World world;
@@ -235,6 +239,7 @@ public class Jugador extends Personaje
             BarraDeVida vida = mundo.getVida();
             vida.disminuyeVida();
         }
+        
     }
     
     /**
@@ -254,5 +259,42 @@ public class Jugador extends Personaje
             /*if(isAtEdge())
                 bala();*/
         }
+    }
+    
+    public void checaPortal()
+    {
+        Portal portal = new Portal();
+        
+        if(nivel == 1)
+        {
+            movimientosEscuela();
+            if(isTouching(Portal.class))
+            {
+
+                World world = getWorld();
+                MyWorld mundo = (MyWorld)world;
+                mundo.calle();
+                nivel++;
+            }
+        }
+        if(nivel == 2 )
+        {
+            movimientosCalle();
+            if(isTouching(Portal.class))
+            {
+                World world = getWorld();
+                MyWorld mundo = (MyWorld)world;
+                mundo.rancho();
+                nivel++;
+            }
+        }
+        if(nivel == 3)
+        {
+            disparaBala();
+            movimientosRancho();
+            if(isTouching(Portal.class))
+                Greenfoot.stop();
+        }
+        
     }
 }

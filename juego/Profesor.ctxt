@@ -5,7 +5,6 @@ comment1.params=
 comment1.target=void\ act()
 comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Profesor\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
 comment2.params=
-comment2.target=void\ bala()
-comment3.params=
-comment3.target=void\ disparaExamen()
-numComments=4
+comment2.target=void\ disparaExamen()
+comment2.text=public\ void\ bala()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ Actor\ jugador\ \=\ getOneIntersectingObject(Jugador.class);\r\n\ \ \ \ \ \ \ \ if(jugador\ \!\=\ null)\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ World\ world\ \=\ getWorld();\r\n\ \ \ \ \ \ \ \ \ \ \ \ world.removeObject(this);\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ if(isAtEdge())\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ World\ world\ \=\ getWorld();\r\n\ \ \ \ \ \ \ \ \ \ \ \ world.removeObject(this);\r\n\ \ \ \ \ \ \ \ }\r\n}
+numComments=3

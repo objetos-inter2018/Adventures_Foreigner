@@ -21,7 +21,7 @@ public class Profesor extends Enemigo
         disparaExamen();
     }    
     
-    public void bala()
+    /*public void bala()
     {
         Actor jugador = getOneIntersectingObject(Jugador.class);
         if(jugador != null)
@@ -34,7 +34,7 @@ public class Profesor extends Enemigo
              World world = getWorld();
             world.removeObject(this);
         }
-    }
+    }*/
     
     public void disparaExamen()
     {

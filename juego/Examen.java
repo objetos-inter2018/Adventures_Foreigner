@@ -15,7 +15,12 @@ public class Examen extends Profesor
     public void act() 
     {
         move(-5);
-       
+        if(isAtEdge())
+        {
+            World world;
+            world = getWorld();
+            world.removeObject(this);
+        }
    
     }    
 }

@@ -39,7 +39,7 @@ public class Ranchero extends Enemigo
     {
         Actor BalaJugador;
         BalaJugador = getOneObjectAtOffset(0,0,BalaJugador.class);
-        if(/*isTouching(BalaJugador.class)*/ BalaJugador != null)
+        if(isTouching(BalaJugador.class) /*BalaJugador != null*/)
         {
             World world;
             world = getWorld();
