@@ -1,12 +1,32 @@
 ## The Adventures Of The Foreigner
 
-The Adventures Of The Foreigner es un divertido juego en el que tomaras el papel de un estudiante foraneo que tiene como mision regresar a su rancho, para ello tendras que cruzar por diferentes escenarios y enfrentarte a enemigos para finalmente llegar a su pueblo.
+The Adventures Of The Foreigner es un divertido juego en el que tomarás el papel de un estudiante foráneo que tiene como mision regresar a su rancho, para ello tendras que cruzar por diferentes escenarios y enfrentarte a diferentes enemigos para finalmente llegar a al pueblo.
+
+## Descripcion del juego
+
+Son 3 escenarios diferentes por lo
+
+## Autores
+
+[José Alfredo Ortiz Zúñiga](https://github.com/AlfredoOrtiz14)
+[Josué Torres Rosales] (https://github.com/Torres13)
+
+## Link de Greenfoot
+
+
+
+## Video
+
+
+## Diagrama de clases
+
+
+
 
 You can use the [editor on GitHub](https://github.com/objetos-inter2018/Adventures_Foreigner/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Foraneo
 
 ### Markdown
 
