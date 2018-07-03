@@ -32,7 +32,7 @@ Trata de no tocarlos ya que perderias una de tus vidas, ten cuidado con algunos 
 
 #### Ranchero
 
-<img src = "https://github.com/objetos-inter2018/Adventures_Foreigner/blob/master/juego/images/Western-26 - copia2.png" />
+<img src = "https://imgur.com/FRiyMEw" />
 
 ### Bonificaciones
 
