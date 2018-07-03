@@ -40,25 +40,27 @@ Trata de no tocarlos ya que perderias una de tus vidas, ten cuidado con algunos 
 
 Los refrescos le otorgan una vida extra al jugador, asi que asegurate de tomar uno cuando sea necesario!
 
-< img src = "https://i.imgur.com/F9hYRlZ.png" />
+<img src = "https://i.imgur.com/F9hYRlZ.png" />
 
 #### Maruchan, atún y las buenas calificaciones
 
 Tomar uno de estos objetos te otorgará un punto.
 
 <img src = "https://i.imgur.com/HCfQVMz.png" />
+
 <img src = "https://i.imgur.com/pJHh44g.png" />
+
 <img src = "https://i.imgur.com/VETFef9.png" />
 
 ### Obstáculos
 
 Los siguientes obstáculos te impedirán el paso.
 
-< img src = "https://i.imgur.com/srC7biJ.png" />
+<img src = "https://i.imgur.com/srC7biJ.png" />
 
-< img src = "https://i.imgur.com/hcErP9l.png" />
+<img src = "https://i.imgur.com/hcErP9l.png" />
 
-< img src = "https://i.imgur.com/LRV2cKU.png" />
+<img src = "https://i.imgur.com/LRV2cKU.png" />
 
 ## Link de Greenfoot
 
@@ -66,6 +68,10 @@ Los siguientes obstáculos te impedirán el paso.
 
 ## Video
 [Link](https://www.youtube.com/watch?v=JMGJZKXu_hw&feature=youtu.be)
+
+## Diagrama de clases
+
+<img src = "https://i.imgur.com/iaCo5hY.png" />
 
 ## Autores
 
