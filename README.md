@@ -58,20 +58,19 @@ Los siguientes obstáculos te impedirán el paso.
 
 
 
+
+
+## Link de Greenfoot
+
+[Juega aqui](http://www.greenfoot.org/scenarios/21838)
+
+## Video
+[Link](https://www.youtube.com/watch?v=JMGJZKXu_hw&feature=youtu.be)
+
 ## Autores
 
 José Alfredo Ortiz Zúñiga.
 
 Josué Torres Rosales.
 
-## Link de Greenfoot
-
-
-## Video
-
-
-
-
-
-You can use the [editor on GitHub](https://github.com/objetos-inter2018/Adventures_Foreigner/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
