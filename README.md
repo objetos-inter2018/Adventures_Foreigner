@@ -6,7 +6,7 @@ The Adventures Of The Foreigner es un divertido juego en el que tomarás el pape
 
 ### Foráneo
 
-<img src = "https://i.imgur.com/IeljTbT.png" />
+<img src = "https://raw.githubusercontent.com/objetos-inter2018/Adventures_Foreigner/master/juego/images/foraneo.png" />
 
 Es el personaje principal.
 
@@ -16,15 +16,15 @@ Trata de no tocarlos ya que perderias una de tus vidas, ten cuidado con algunos 
 
 #### Bravucon
 
-<img src = "https://i.imgur.com/gCmi1ab.png" />
+<img src = "https://raw.githubusercontent.com/objetos-inter2018/Adventures_Foreigner/master/juego/images/Bravucon.png" />
 
 #### Profesor
 
-<img src = "https://i.imgur.com/v2wu7Vr.png" />
+<img src = "https://raw.githubusercontent.com/objetos-inter2018/Adventures_Foreigner/master/juego/images/Profesor_Oak_(XY).png" />
 
 #### Pandillero
 
-<img src = "https://i.imgur.com/KLZ6pJc.png" />
+<img src = "https://raw.githubusercontent.com/objetos-inter2018/Adventures_Foreigner/master/juego/images/pandillero.png" />
 
 #### Vago
 
@@ -32,7 +32,7 @@ Trata de no tocarlos ya que perderias una de tus vidas, ten cuidado con algunos 
 
 #### Ranchero
 
-<img src = "https://i.imgur.com/FRiyMEw.png" />
+<img src = "https://raw.githubusercontent.com/objetos-inter2018/Adventures_Foreigner/master/juego/images/Western-26%20-%20copia2.png" />
 
 ### Bonificaciones
 
@@ -40,17 +40,17 @@ Trata de no tocarlos ya que perderias una de tus vidas, ten cuidado con algunos 
 
 Los refrescos le otorgan una vida extra al jugador, asi que asegurate de tomar uno cuando sea necesario!
 
-<img src = "https://i.imgur.com/F9hYRlZ.png" />
+<img src = "https://raw.githubusercontent.com/objetos-inter2018/Adventures_Foreigner/master/juego/images/184470.png" />
 
 #### Maruchan, atún y las buenas calificaciones
 
 Tomar uno de estos objetos te otorgará un punto.
 
-<img src = "https://i.imgur.com/HCfQVMz.png" />
+<img src = "https://raw.githubusercontent.com/objetos-inter2018/Adventures_Foreigner/master/juego/images/maruchan3.png" />
 
-<img src = "https://i.imgur.com/pJHh44g.png" />
+<img src = "https://raw.githubusercontent.com/objetos-inter2018/Adventures_Foreigner/master/juego/images/atun.png" />
 
-<img src = "https://i.imgur.com/VETFef9.png" />
+<img src = "https://raw.githubusercontent.com/objetos-inter2018/Adventures_Foreigner/master/juego/images/2613b5e6c740c2063501f14444758dad.png" />
 
 ### Obstáculos
 
@@ -71,7 +71,7 @@ Los siguientes obstáculos te impedirán el paso.
 
 ## Diagrama de clases
 
-<img src = "https://i.imgur.com/iaCo5hY.png" />
+<img src = "https://raw.githubusercontent.com/objetos-inter2018/Adventures_Foreigner/master/Diagrama%20de%20clases%20Final.png" />
 
 ## Autores
 
