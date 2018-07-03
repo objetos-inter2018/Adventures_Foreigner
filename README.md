@@ -6,7 +6,7 @@ The Adventures Of The Foreigner es un divertido juego en el que tomarás el pape
 
 ### Foráneo
 
-<img src = "https://github.com/objetos-inter2018/Adventures_Foreigner/blob/master/juego/images/foraneo.png" />
+<img src = "https://i.imgur.com/IeljTbT.png" />
 
 Es el personaje principal.
 
@@ -16,19 +16,19 @@ Trata de no tocarlos ya que perderias una de tus vidas, ten cuidado con algunos 
 
 #### Bravucon
 
-<img src = "https://github.com/objetos-inter2018/Adventures_Foreigner/blob/master/juego/images/Bravucon.png" />
+<img src = "https://i.imgur.com/gCmi1ab.png" />
 
 #### Profesor
 
-<img src = "https://github.com/objetos-inter2018/Adventures_Foreigner/blob/master/juego/images/Profesor_Oak_(XY).png" />
+<img src = "https://i.imgur.com/v2wu7Vr.png" />
 
 #### Pandillero
 
-<img src = "https://github.com/objetos-inter2018/Adventures_Foreigner/blob/master/juego/images/pandillero.png" />
+<img src = "https://i.imgur.com/KLZ6pJc.png" />
 
 #### Vago
 
-<img src = "https://github.com/objetos-inter2018/Adventures_Foreigner/blob/master/juego/images/vago2.png" />
+<img src = "https://i.imgur.com/Uq1odCH.png" />
 
 #### Ranchero
 
@@ -40,25 +40,25 @@ Trata de no tocarlos ya que perderias una de tus vidas, ten cuidado con algunos 
 
 Los refrescos le otorgan una vida extra al jugador, asi que asegurate de tomar uno cuando sea necesario!
 
+< img src = "https://i.imgur.com/F9hYRlZ.png" />
+
 #### Maruchan, atún y las buenas calificaciones
 
 Tomar uno de estos objetos te otorgará un punto.
+
+<img src = "https://i.imgur.com/HCfQVMz.png" />
+<img src = "https://i.imgur.com/pJHh44g.png" />
+<img src = "https://i.imgur.com/VETFef9.png" />
 
 ### Obstáculos
 
 Los siguientes obstáculos te impedirán el paso.
 
-#### Pupitre
+< img src = "https://i.imgur.com/srC7biJ.png" />
 
+< img src = "https://i.imgur.com/hcErP9l.png" />
 
-#### Alcantarillas
-
-
-#### Cactus
-
-
-
-
+< img src = "https://i.imgur.com/LRV2cKU.png" />
 
 ## Link de Greenfoot
 
