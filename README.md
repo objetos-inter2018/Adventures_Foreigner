@@ -12,6 +12,8 @@ Es el personaje principal.
 
 ### Enemigos
 
+Trata de no tocarlos ya que perderias una de tus vidas, ten cuidado con algunos ya que ademas de moverse pueden lanzarte objetos que debilitaran al jugador! 
+
 #### Bravucon
 
 <img src = "https://github.com/objetos-inter2018/Adventures_Foreigner/blob/master/juego/images/Bravucon.png" />
@@ -32,11 +34,35 @@ Es el personaje principal.
 
 <img src = "https://github.com/objetos-inter2018/Adventures_Foreigner/blob/master/juego/images/Western-26 - copia2.png" />
 
+### Bonificaciones
+
+#### Refresco
+
+Los refrescos le otorgan una vida extra al jugador, asi que asegurate de tomar uno cuando sea necesario!
+
+#### Maruchan, atún y las buenas calificaciones
+
+Tomar uno de estos objetos te otorgará un punto.
+
+### Obstáculos
+
+Los siguientes obstáculos te impedirán el paso.
+
+#### Pupitre
+
+
+#### Alcantarillas
+
+
+#### Cactus
+
+
+
 ## Autores
 
-José Alfredo Ortiz Zúñiga
+José Alfredo Ortiz Zúñiga.
 
-Josué Torres Rosales
+Josué Torres Rosales.
 
 ## Link de Greenfoot
 
