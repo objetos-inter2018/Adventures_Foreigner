@@ -56,11 +56,11 @@ Tomar uno de estos objetos te otorgará un punto.
 
 Los siguientes obstáculos te impedirán el paso.
 
-<img src = "https://i.imgur.com/srC7biJ.png" />
+<img src = "https://raw.githubusercontent.com/objetos-inter2018/Adventures_Foreigner/master/juego/images/silla-escolar_2.png" />
 
-<img src = "https://i.imgur.com/hcErP9l.png" />
+<img src = "https://raw.githubusercontent.com/objetos-inter2018/Adventures_Foreigner/master/juego/images/alcantarilla.png" />
 
-<img src = "https://i.imgur.com/LRV2cKU.png" />
+<img src = "https://raw.githubusercontent.com/objetos-inter2018/Adventures_Foreigner/master/juego/images/Large_Cactus.png" />
 
 ## Link de Greenfoot
 
