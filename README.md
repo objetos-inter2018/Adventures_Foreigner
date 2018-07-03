@@ -28,7 +28,7 @@ Trata de no tocarlos ya que perderias una de tus vidas, ten cuidado con algunos 
 
 #### Vago
 
-<img src = "https://i.imgur.com/Uq1odCH.png" />
+<img src = "https://raw.githubusercontent.com/objetos-inter2018/Adventures_Foreigner/master/juego/images/vago2.png" />
 
 #### Ranchero
 
