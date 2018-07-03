@@ -32,7 +32,7 @@ Trata de no tocarlos ya que perderias una de tus vidas, ten cuidado con algunos 
 
 #### Ranchero
 
-<img src = "https://imgur.com/FRiyMEw" />
+<img src = "https://i.imgur.com/FRiyMEw.png" />
 
 ### Bonificaciones
 
